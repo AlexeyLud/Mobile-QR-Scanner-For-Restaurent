@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/coffe"
+    tools:context=".HomeActivity">
+
+
+    <ImageView
+        android:id="@+id/image_logo"
+        android:layout_width="439dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginBottom="624dp"
+        android:background="@color/cardview_light_background"
+        android:padding="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/dribbble2" />
+
+    <Button
+        android:id="@+id/button_scan"
+        android:layout_width="288dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="492dp"
+        android:backgroundTint="#259BAA"
+        android:text="@string/scan"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/image_logo" />
+
+    <Button
+        android:id="@+id/button_zakaz"
+        android:layout_width="288dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="246dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="200dp"
+        android:backgroundTint="#259BAA"
+        android:text="@string/zakaz"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_scan" />
+
+    <Button
+        android:id="@+id/instruct"
+        android:layout_width="185dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#259BAA"
+        android:text="@string/instruction"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="141dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="72dp"
+        android:backgroundTint="#259BAA"
+        android:text="@string/aboutas"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/instruct" />
+</androidx.constraintlayout.widget.ConstraintLayout>

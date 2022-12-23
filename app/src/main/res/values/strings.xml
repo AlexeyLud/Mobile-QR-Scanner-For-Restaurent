@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">BareBones</string>
+    <string name="scan">Сканировать блюдо</string>
+    <string name="zakaz">Мой заказ</string>
+    <string name="again">Сканировать ещё</string>
+    <string name="set_zakaz">Оформить заказ</string>
+    <string name="first">Принятие заказа....</string>
+    <string name="second">Заказ принят!</string>
+    <string name="third">Готовится....</string>
+    <string name="fourth">Заказ готов! Зовите официанта</string>
+    <string name="backmain">Вернуться на главную</string>
+    <string name="generation">Сгенерировать QR-код заказа</string>
+    <string name="aboutas">О нас</string>
+    <string name="instruction">Инструкция</string>
+    <string name="partner">Наш партнёр</string>
+    <string name="textabout">ООО \'BareBones\' \n Рег номер: 19712003\n Юр адрес: Брест, ул. Московская 267\n УНП: 19832794\n +375(33)3481982</string>
+    <string name="textinstr">Добро пожаловать в BareBones\nВот наши возможности и основные функции:\n1. Вы сканируете QR-коды на предоставленном вам меню\n2. Вы выбирете, добавить сканируемое блюдо в ваш заказ или нет\n3. Далее вы можете просмотреть ваш заказ\n4. По нажатию на блюдо, можно узнать подробную инфу о нём\n5. По зажатию можно удалить\n6. Как только вы определились с заказом, жмите Оформить заказ\n7. Далее идёт загрузка и готовка заказа\n8. Ну и наконец жмёте Генерировать QR-код и зовёте официанта</string>
+</resources>
